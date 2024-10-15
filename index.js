@@ -1,5 +1,3 @@
-// 9b479a8db90b5b4c2c3bb33a6e6cdfe7
-
 const weatherForm = document.querySelector(".weatherForm");
 const cityInput = document.querySelector(".cityInput");
 const card = document.querySelector(".card");
