@@ -1,0 +1,121 @@
+/* General reset and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container styling */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Heading styling */
+h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+.weatherForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Input field styling */
+.cityInput {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 1.1em;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.cityInput:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Card styling */
+.card {
+    background-color: #e3f2fd;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.card h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1.2em;
+    color: #555;
+    margin: 5px 0;
+} */
+
+.weatherEmoji {
+    font-size: 60px;
+}
+
+.errorDisplay {
+    color: red;
+    font-size: 1.1em;
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .input-form {
+        width: 100%;
+    }
+}
+}
